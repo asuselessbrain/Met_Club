@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <footer className="bg-gradient-to-t from-blue-200 via-blue-100 to-blue-50 text-gray-800 py-6 text-center">
-            <p>Developed by Center For Data Science Research</p>
+        <footer className="text-white py-6 text-sm text-center">
+            <a href="http://cdsr.com.bd" target="_blank">Developed by Centre for Data Science Research (CDSR)</a>
         </footer>
     );
 };

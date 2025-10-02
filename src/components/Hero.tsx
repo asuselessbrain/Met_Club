@@ -1,9 +1,18 @@
+import { Link } from "react-router";
+
 const HeroSection = () => {
     return (
-        <div className="text-3xl font-bold min-h-[calc(100vh-264px)] flex items-center justify-center text-center">
-            <div className="space-y-2">
-                <p>মেট ক্লাব গেমিফাইড ই-লার্নিং </p>
+        <div className=" pl-6 text-white">
+            <div className="space-y-4 text-xl lg:text-2xl font-semibold">
+                <p className="md:text-4xl xl:text-6xl font-bold">মেট ক্লাব গেমিফাইড ই-লার্নিং </p>
                 <p>এসো আবহাওয়া শিখি খেলতে খেলতে</p>
+            </div>
+            <div className="mt-16 flex justify-start">
+                <Link to="/about">
+                    <button className="px-6 py-3 cursor-pointer bg-white text-blue-700 font-semibold rounded-lg hover:bg-blue-50 transition">
+                    মেট ক্লাব সম্পর্কে আরও জানুন
+                </button>
+                </Link>
             </div>
         </div>
     );

@@ -6,16 +6,19 @@ import Partners from "../components/Partners";
 
 const Home = () => {
     return (
-        <div>
-            <div className="flex flex-col lg:flex-row items-center justify-between gap-6 bg-gradient-to-b from-blue-100 via-white to-blue-50">
-                <div className="lg:w-2/3">
-                    <Header />
+        <div className="bg-gradient-to-tl from-[#015186] to-[#1288e8]">
+            <Header />
+            <div className="flex min-h-[calc(100vh-452px)] flex-col lg:flex-row px-6 md:px-16 py-6 gap-6">
+
+                <div className="flex flex-col justify-between flex-1">
                     <HeroSection />
                     <Partners />
                 </div>
-                <div className="lg:w-1/3">
+
+                <div className="w-full lg:w-1/3 mt-6 lg:mt-0 flex justify-center lg:justify-start">
                     <Login />
                 </div>
+
             </div>
             <Footer />
         </div>

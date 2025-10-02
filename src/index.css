@@ -1,1 +1,16 @@
+@font-face {
+  font-family: 'Nikosh';
+  src: url('/src/assets/fonts/Nikosh.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @import "tailwindcss";
+
+body {
+  font-family: "Nikosh", sans-serif;
+}
+
+.clipPath {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 55% 75%, 50% 100%, 45% 75%, 0% 75%);
+}
