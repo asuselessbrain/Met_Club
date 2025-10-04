@@ -2,12 +2,12 @@ import { Link } from "react-router";
 
 const Login = () => {
     return (
-        <div className="w-full max-w-md p-6 sm:p-8 bg-white/80 backdrop-blur-md rounded-2xl shadow-lg space-y-4 md:space-y-6 mx-auto">
+        <div className="w-full max-w-md p-6 sm:p-8 lg:p-4 xl:p-8 bg-white/80 backdrop-blur-md rounded-2xl shadow-lg space-y-4 md:space-y-6 mx-auto">
             <h1 className="text-xl font-bold leading-tight text-center tracking-tight text-gray-900 md:text-2xl">
                 লগইন করুন
             </h1>
 
-            <form className="space-y-4 md:space-y-6">
+            <form className="space-y-4 md:space-y-6 lg:space-y-2 xl:space-y-6">
                 <div>
                     <label htmlFor="username" className="block mb-2 text-sm font-medium text-gray-900">
                         আইডি / নাম
