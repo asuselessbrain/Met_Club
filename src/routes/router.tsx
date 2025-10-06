@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Index from "../pages/Index";
+import Lesson from "../pages/Lesson";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
     path: "/basicMap",
     element: <Index />,
   },
+  {
+    path: '/lesson/:id',
+    element: <Lesson />
+  }
 ]);
 
 export default router;
